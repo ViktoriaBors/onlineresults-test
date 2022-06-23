@@ -72,7 +72,7 @@ header .menuButton {
   font-size: 1.3rem;
   margin-bottom: 0.8rem;
 }
-header .menuButton a {
+header .menuButton i {
   color: var(--fullBlack);
 }
 header .hidden {
