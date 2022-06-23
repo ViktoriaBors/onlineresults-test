@@ -72,6 +72,9 @@ header .menuButton {
   font-size: 1.3rem;
   margin-bottom: 0.8rem;
 }
+header .menuButton a {
+  color: var(--fullBlack);
+}
 header .hidden {
   display: none;
 }
@@ -88,14 +91,8 @@ header .hidden {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  header .media {
-    -webkit-box-flex: 2;
-        -ms-flex-positive: 2;
-            flex-grow: 2;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   header .icons {
     display: -webkit-box;
@@ -135,6 +132,14 @@ header .hidden {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .media {
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
   }
   header .media nav ul {
     -webkit-box-orient: horizontal;
@@ -171,8 +176,8 @@ header .hidden {
   color: var(--white);
 }
 .banner picture > img {
-  height: 40vh;
-  width: 97vw;
+  height: 60vh;
+  width: 100vw;
 }
 @media screen and (min-width: 576px) {
   .banner picture > img {
