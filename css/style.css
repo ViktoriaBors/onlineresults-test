@@ -276,6 +276,11 @@ main section:nth-child(2) div {
   padding-bottom: 1.5rem;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  main section:nth-child(2) div {
+    text-align: left;
+  }
+}
 main section:nth-child(2) div h3, main section:nth-child(2) div p {
   padding-bottom: 1rem;
 }
